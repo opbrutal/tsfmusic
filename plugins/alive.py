@@ -35,23 +35,23 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/46247f00eecfb587117c0.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ ᴀʟɪsʜᴀ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
+💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ KAAL TORNADO sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴏʀ : [Aʙʜɪᴍᴀɴʏᴜ Rᴀɴᴀ](https://t.me/Itz_Venom_xD)
-┣★ ᴜᴘᴅᴀᴛᴇs : [Aʟɪsʜᴀ Sᴇʀᴠᴇʀ](https://t.me/AlishaSupport)
-┣★ sᴜᴘᴘᴏʀᴛ : [Aʟɪsʜᴀ Cʜᴀᴛ](https://t.me/Shayri_Music_Lovers)
-┣★ ᴏᴡɴᴇʀ › : [Cᴀɴᴅʏ ǫᴜᴇᴇɴ](https://t.me/candy_626)
+┣★ ᴄʀᴇᴀᴛᴏʀ : [KAAL SID](https://t.me/ITS_HEAVEN_KING)
+┣★ ᴜᴘᴅᴀᴛᴇs : [KAAL TORNADO Sᴇʀᴠᴇʀ](https://t.me/KAAL_SPAM_BOTS)
+┣★ sᴜᴘᴘᴏʀᴛ : [Aʟɪsʜᴀ Cʜᴀᴛ](https://t.me/KAAL_TORNADO_ARMY)
+┣★ ᴏᴡɴᴇʀ › : [KAAL TORNADO NETWORK](https://t.me/KAAL_TORNADO_NETWORK)
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/Itz_Venom_xD) ...
+ᴅᴍ ᴛᴏ ᴍʏ [KAAL TORNADO OWNER](https://t.me/ITS_HEAVEN_KING) ...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴊᴏɪɴ ʜᴇʀᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ❱ ➕", url=f"https://t.me/AlishaSupport")
+                        "➕ ❰ ᴊᴏɪɴ ʜᴇʀᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ❱ ➕", url=f"https://t.me/KAAL_SPAM_BOTS")
                 ]
                 
            ]
@@ -68,7 +68,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞", url=f"https://t.me/Shayri_Music_Lovers")
+                        "💥 KAAL TORNADO NETWORK💞", url=f"https://t.me/KAAL_TORNADO_NETWORK")
                 ]
             ]
         ),
