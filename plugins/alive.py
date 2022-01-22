@@ -39,8 +39,8 @@ async def start_(client: Client, message: Message):
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
 ┏━━━━━━━━━━━━━━━━━┓
 ┣★ ᴄʀᴇᴀᴛᴏʀ : [KAAL SID](https://t.me/ITS_HEAVEN_KING)
-┣★ ᴜᴘᴅᴀᴛᴇs : [KAAL TORNADO Sᴇʀᴠᴇʀ](https://t.me/KAAL_SPAM_BOTS)
-┣★ sᴜᴘᴘᴏʀᴛ : [Aʟɪsʜᴀ Cʜᴀᴛ](https://t.me/KAAL_TORNADO_ARMY)
+┣★ ᴜᴘᴅᴀᴛᴇs : [KAAL TORNADO SPAM](https://t.me/KAAL_SPAM_BOTS)
+┣★ sᴜᴘᴘᴏʀᴛ : [KAAL ARMY](https://t.me/KAAL_TORNADO_ARMY)
 ┣★ ᴏᴡɴᴇʀ › : [KAAL TORNADO NETWORK](https://t.me/KAAL_TORNADO_NETWORK)
 ┗━━━━━━━━━━━━━━━━━┛
 
