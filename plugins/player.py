@@ -66,7 +66,7 @@ def changeImageSize(maxWidth, maxHeight, image):
     return image.resize((newWidth, newHeight))
 
 
-async def generate_cover(requested_by, title, views, duration, thumbnail):
+async def generate_cover(requested_by, title, views, duration, 20220122_161057):
     async with aiohttp.ClientSession() as session:
         async with session.get(thumbnail) as resp:
             if resp.status == 200:
@@ -75,13 +75,13 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                 await f.close()
 
     image1 = Image.open("./background.png")
-    image2 = Image.open("resource/thumbnail.png")
+    image2 = Image.open("resource/20220122_161057.jpg")
     image3 = changeImageSize(1280, 720, image1)
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
     image6 = image4.convert("RGBA")
     Image.alpha_composite(image5, image6).save("temp.png")
-    img = Image.open("temp.png")
+    img = Image.open("temp.jpg")
     draw = ImageDraw.Draw(img)
     font = ImageFont.truetype("resource/font.otf", 32)
     draw.text((190, 550), f"Title: {title[:50]} ...", (255, 255, 255), font=font)
