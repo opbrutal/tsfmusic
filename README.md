@@ -1,4 +1,4 @@
-### Best Smart Voice Chat Music Bot For Telegram Groups ...
+### Best Smart Voice Chat Music Bot For Telegram Groups made by kaal ...
 
 
 <p align="center"><a href="https://t.me/ITS_HEAVEN_KING"><img src="https://telegra.ph/file/b911090d70bf276085778.jpg"></a></p>
@@ -19,7 +19,7 @@
 
 ### Get String Session
 
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://t.me/KAAL_STRING_BOT)
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://t.me/SessionGeneratorBot)
 
 
 
