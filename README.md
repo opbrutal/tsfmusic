@@ -19,10 +19,10 @@
 
 ### Get String Session
 
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://t.me/StringGeneratorRobot)
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://t.me/KAAL_STRING_BOT)
 
 
 
 ### Copy Pasters You Can Copy This But Must Give Credits ...
 
-#### Main Developer = [Abhimanyu Singh Ranawat](https://t.me/Itz_Venom_xD)
+#### Main Developer = [Kaal](https://t.me/ITS_HEAVEN_KING)
