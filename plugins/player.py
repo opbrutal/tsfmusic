@@ -375,7 +375,7 @@ async def skip(_, message: Message):
             )
 
 
-    await message.reply_text("**⏩ 𝐒𝐤𝐢𝐩𝐩𝐞𝐝 ...**'
+    await message.reply_text("**⏩ 𝐒𝐤𝐢𝐩𝐩𝐞𝐝 ...**"
    ) 
 
 
