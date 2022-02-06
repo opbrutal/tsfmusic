@@ -62,7 +62,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/start", "/alive", "Candy"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/8e71217a281c15f73a306.jpg",
+        photo=f"https://telegra.ph/file/3c190879a1301a29659c3.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
