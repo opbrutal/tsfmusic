@@ -343,7 +343,7 @@ async def pause(_, message: Message):
 @authorized_users_only
 async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
-    await message.reply_text(**𝐑𝐞𝐬𝐮𝐦𝐞𝐝 🔜 ...**"
+    await message.reply_text("**𝐑𝐞𝐬𝐮𝐦𝐞𝐝 🔜 ...**"
     )
 
 
@@ -375,9 +375,7 @@ async def skip(_, message: Message):
             )
 
 
-    await message.reply_photo(
-                             photo="https://telegra.ph/file/1ca8c27be50581f86aa3f.jpg", 
-                             caption=f'**💥 Kaal Tornado 🔈 𝐌𝐮𝐬𝐢𝐜🤞𝐍𝐨𝐰 🥀\n⏩ 𝐒𝐤𝐢𝐩𝐩𝐞𝐝 🌷 ...**'
+    await message.reply_text("**⏩ 𝐒𝐤𝐢𝐩𝐩𝐞𝐝 ...**'
    ) 
 
 
@@ -391,7 +389,7 @@ async def stop(_, message: Message):
         pass
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
-    await message.reply_text(**𝐍𝐨𝐨𝐛 𝐔❌ 𝐒𝐭𝐨𝐩𝐩𝐞𝐝 𝐄𝐯𝐞𝐫𝐲𝐭𝐡𝐢𝐧𝐠...**"
+    await message.reply_text("**𝐍𝐨𝐨𝐛 𝐔❌ 𝐒𝐭𝐨𝐩𝐩𝐞𝐝 𝐄𝐯𝐞𝐫𝐲𝐭𝐡𝐢𝐧𝐠...**"
     )
 
 
@@ -407,5 +405,5 @@ async def admincache(client, message: Message):
         ),
     )
 
-    await message.reply_text(**𝐑𝐞𝐥𝐨𝐚𝐝𝐞𝐝 𝐃𝐨𝐧𝐞...**"
+    await message.reply_text("**𝐑𝐞𝐥𝐨𝐚𝐝𝐞𝐝 𝐃𝐨𝐧𝐞...**"
     )
