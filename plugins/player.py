@@ -334,7 +334,7 @@ async def play(_, message: Message):
 @authorized_users_only
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
-    await message.reply_text(**𝐏𝐚𝐮𝐬𝐞𝐝🎧 ...**"
+    await message.reply_text("**𝐏𝐚𝐮𝐬𝐞𝐝 🎧...**"
     )
 
 
