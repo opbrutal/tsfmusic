@@ -247,7 +247,7 @@ async def play(_, message: Message):
         if len(message.command) < 2:
             return await lel.edit(
                 "**𝐆𝐢𝐯𝐞 𝐒𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐓𝐨 𝐏𝐥𝐚𝐲 𝐁𝐚𝐛𝐞🤭**"
-        await lel.edit("**🔄 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 ...**")
+        await lel.edit("**🔄 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠...**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
