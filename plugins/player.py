@@ -212,8 +212,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/KAAL_SPAM_BOTS")
+                            text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭🔉",
+                            url=f"https://t.me/SECRET_CITTY")
 
                 ]
             ]
@@ -228,8 +228,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/KAAL_SPAM_BOTS")
+                            text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭🔉",
+                            url=f"https://t.me/SECRET_CITTY")
 
                 ]
             ]
@@ -281,8 +281,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/KAAL_SPAM_BOTS")
+                            text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭🔉",
+                            url=f"https://t.me/SECRET_CITTY")
 
                 ]
             ]
@@ -290,7 +290,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**💥 𝐏𝐥𝐚𝐲 🔊 𝐌𝐮𝐬𝐢𝐜 💿 𝐋𝐞𝐬𝐬 ⚡️\n🤟 𝐓𝐡𝐚𝐧⚡️ {DURATION_LIMIT} 💞 𝐌𝐢𝐧𝐮𝐭𝐞 ...**"
+                f"**💥𝐘𝐨𝐮𝐫 𝐌𝐮𝐬𝐢𝐜 𝐈𝐬 𝐋𝐨𝐧𝐠𝐞𝐫 𝐭𝐡𝐚𝐧 {DURATION_LIMIT} 💞 𝐌𝐢𝐧𝐮𝐭𝐞 ...**"
             )
             return
         requested_by = message.from_user.first_name
@@ -304,7 +304,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**💥 Kaal Tornado 🤞𝐀𝐝𝐝𝐞𝐝 💿 𝐒𝐨𝐧𝐠❗️\n🔊 𝐀𝐭 💞 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 » `{}` 🌷 ...**".format(position),
+            caption="**𝐓𝐒𝐅 𝐑𝐨𝐜𝐤𝐬\n🔊 𝐀𝐭 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 » `{}` ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -321,7 +321,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💥 Kaal🤞Tornado 🎸 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐩 🥀 ...**".format(),
+            caption="**𝐓𝐒𝐅 𝐑𝐨𝐜𝐤𝐬 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 𝐎𝐩 🔜...**".format(),
            )
 
     os.remove("final.png")
@@ -333,9 +333,7 @@ async def play(_, message: Message):
 @authorized_users_only
 async def pause(_, message: Message):
     await clientbot.pytgcalls.pause_stream(message.chat.id)
-    await message.reply_photo(
-                             photo="https://telegra.ph/file/1ca8c27be50581f86aa3f.jpg", 
-                             caption="**💥 Kaal Tornado 🔈 𝐌𝐮𝐬𝐢𝐜🤞𝐍𝐨𝐰 🥀\n▶️ 𝐏𝐚𝐮𝐬𝐞𝐝 🌷 ...**"
+    await message.reply_text(**𝐏𝐚𝐮𝐬𝐞𝐝🎧 ...**"
     )
 
 
@@ -344,9 +342,7 @@ async def pause(_, message: Message):
 @authorized_users_only
 async def resume(_, message: Message):
     await clientbot.pytgcalls.resume_stream(message.chat.id)
-    await message.reply_photo(
-                             photo="https://telegra.ph/file/1ca8c27be50581f86aa3f.jpg", 
-                             caption="**💥 Kaal Tornado 🔈 𝐌𝐮𝐬𝐢𝐜🤞𝐍𝐨𝐰 🥀\n⏸ 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 🌷 ...**"
+    await message.reply_text(**𝐑𝐞𝐬𝐮𝐦𝐞𝐝 🔜 ...**"
     )
 
 
@@ -361,7 +357,7 @@ async def skip(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("**💥 KaalTornado 💞 𝐍𝐨𝐭𝐡𝐢𝐧𝐠 🔇\n🚫 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 🌷 ...**")
+        await message.reply_text("**🔥𝐓𝐒𝐅 𝐑𝐨𝐜𝐤𝐬 \n𝐍𝐨𝐭𝐡𝐢𝐧𝐠 🚫 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 ...**")
     else:
         queues.task_done(chat_id)
         
@@ -394,9 +390,7 @@ async def stop(_, message: Message):
         pass
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
-    await message.reply_photo(
-                             photo="https://telegra.ph/file/1ca8c27be50581f86aa3f.jpg", 
-                             caption="**💥 Kaal Tornado 🔈 𝐌𝐮𝐬𝐢𝐜🤞𝐍𝐨𝐰 🥀\n❌ 𝐒𝐭𝐨𝐩𝐩𝐞𝐝 🌷 ...**"
+    await message.reply_text(**𝐍𝐨𝐨𝐛 𝐔❌ 𝐒𝐭𝐨𝐩𝐩𝐞𝐝 𝐄𝐯𝐞𝐫𝐲𝐭𝐡𝐢𝐧𝐠...**"
     )
 
 
@@ -412,7 +406,5 @@ async def admincache(client, message: Message):
         ),
     )
 
-    await message.reply_photo(
-                              photo="https://telegra.ph/file/1ca8c27be50581f86aa3f.jpg",
-                              caption="**💥 Kaal Tornado 🔈 𝐌𝐮𝐬𝐢𝐜🤞𝐍𝐨𝐰 🥀\n🔥 𝐑𝐞𝐥𝐨𝐚𝐝𝐞𝐝 🌷 ...**"
+    await message.reply_text(**𝐑𝐞𝐥𝐨𝐚𝐝𝐞𝐝 𝐃𝐨𝐧𝐞...**"
     )
