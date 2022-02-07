@@ -68,7 +68,7 @@ def changeImageSize(maxWidth, maxHeight, image):
 
 async def generate_cover(requested_by, title, views, duration, foreground):
     async with aiohttp.ClientSession() as session:
-        async with session.get(thumbnail) as resp:
+        async with session.get(foreground) as resp:
             if resp.status == 200:
                 f = await aiofiles.open("background.png", mode="wb")
                 await f.write(await resp.read())
